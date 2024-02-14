@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../../assets/styles/estilos.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+      <nav
+        class="navbar navbar-expand-lg bg-body-tertiary animate__animated animate__bounce"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img
+              src="../../assets/img/logo.svg"
+              alt="logo"
+              class="img-fluid"
+              width="400"
+              height="400"
+              height="400"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Experiencia SiembraViva</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Teatro Metropolitano</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">ENGLISH</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="fondoReserva text-white fw-bold">
+        <h2>Reserva Con Nosotros</h2>
+        <p>El Mejor Restaurante Lounge de la ciudad</p>
+        <a href="#" class="btn btn-primary">reservar</a>
+      </section>
+
+      <section class="container">
+        <div class="row justify-content-center text-center mt-3 mb-3">
+          <div class="col-6">
+            <h1>RESERVA</h1>
+            <form>
+              <div class="mb-3">
+                <label class="form-label">Nombres</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="Nombres"
+                  aria-describedby="emailHelp"
+                  placeholder="Nombres completos y apellidos"
+                />
+              </div>
+              <div class="row justify-content-center text-center mt-3 mb-3">
+                <div class="col-6">
+                  
+                  <form>
+                    <div class="mb-3">
+                      <label class="form-label">Nombres</label>
+                      <input type="email" class="form-control"  id="correo"  aria-describedby="emailHelp"  placeholder="Example@correo.com" />
+                    </div>
+
+                    <div class="row justify-content-center text-center mt-3 mb-3">
+                        <div class="col-6">
+                         
+                          <form>
+                            <div class="mb-3">                    
+                              <input type="datetime"
+                                class="form-control"
+                                id="fecha"
+                                aria-describedby="emailHelp"
+                                placeholder="fecha"
+                              />
+                            </div>
+
+                      
+                        <div class="col-6">
+                                                  
+                            <div class="mb-3">
+                              
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>numero de perosnas </option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                  </select>
+                          </div>
+
+                          <button class="btn btn-success w-150" type="submit">Reservar</button>
+
+
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

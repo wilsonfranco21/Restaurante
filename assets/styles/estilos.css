@@ -1,0 +1,39 @@
+.fondo{
+
+    background-image: url("../img/banner4.webp");
+    padding: 25%;
+    background-attachment:fixed ;
+}
+
+.letra{
+
+    color:red;
+    font-size: 500px;
+    font-weight: bold;
+}
+
+a{
+
+    text-decoration: none;
+}
+
+.fondoReserva{
+
+background-image: url("../img/reserva.jpg");
+padding: 25%;background-attachment:fixed ;
+position: relative;
+z-index: 3;
+}
+
+.fondoReserva::after{
+    position: absolute;
+    content: "";
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity:0.4;
+    z-index: -3;
+}
